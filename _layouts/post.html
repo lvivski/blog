@@ -1,0 +1,9 @@
+---
+layout: default
+blog: true
+---
+<article>
+  <h1>{{page.title}}</h1>
+	<time datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y" }}</time>
+	{{ content }}
+</article>
