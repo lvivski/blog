@@ -13,7 +13,7 @@ title: Opinionated
 		{% assign curr_year = post_year %}
 	{% endif %}
 	<li>
-		<a class="nine columns" href="{{ site.path }}/{{ post.url }}">{{ post.title }}</a>
+		<a class="nine columns" href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
 		<time datetime="{{ post.date}}">{{ post.date | date: "%d %b %Y" }}</span>
 	</li>
 {% endfor %}
