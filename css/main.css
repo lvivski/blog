@@ -1,0 +1,7 @@
+@import "../fonts/PTSerif/stylesheet.css";
+@import "../fonts/PTSans/stylesheet.css";
+@import "../fonts/PTMono/stylesheet.css";
+
+body {
+  font: 62.5%/1.5 "PT Serif", Georgia, "Times New Roman", serif;
+}
