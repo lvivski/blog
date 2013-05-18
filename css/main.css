@@ -7,11 +7,13 @@ html {
 }
 
 body {
+	width: 800px;
+	margin: 0 auto;
 	font-size: 2.4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "PT Serif Caption";
+	font-family: "PT Sans Caption";
 }
 
 pre, code {
