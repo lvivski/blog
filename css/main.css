@@ -36,3 +36,11 @@ nav ul {
 nav h3 {
 	text-align: center;
 }
+
+article h1 {
+	margin-bottom: 1;
+}
+
+article time {
+	font-size: .8em;
+}
