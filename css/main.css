@@ -32,8 +32,8 @@ hr {
 }
 
 hr:after {
-	content: "···";
-	letter-spacing: 2em;
+	content: "· · ·";
+	word-spacing: 2em;
 	font-weight: bold;
 }
 
