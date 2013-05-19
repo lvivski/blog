@@ -26,7 +26,15 @@ blockquote {
 }
 
 hr {
-	border-style: solid;
+	border: 0;
+	text-align: center;
+	line-height: .2em;
+}
+
+hr:after {
+	content: "···";
+	letter-spacing: 2em;
+	font-weight: bold;
 }
 
 a {
