@@ -25,6 +25,10 @@ blockquote {
 	text-align: center;
 }
 
+hr {
+	border-style: solid;
+}
+
 a {
 	color: #0042c4;
 }
