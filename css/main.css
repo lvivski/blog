@@ -64,5 +64,6 @@ article h1 {
 }
 
 article time {
-	font-size: .8em;
+	font-size: .75em;
+	color: rgb(110, 108, 106);
 }
