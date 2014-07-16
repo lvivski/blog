@@ -80,6 +80,7 @@ article header a {
 	position: absolute;
 	margin-left: -1.5em;
 	font-size: 2em;
+	line-height: 1.1;
 }
 
 article header time {
