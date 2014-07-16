@@ -57,6 +57,10 @@ nav ul {
 	list-style: none;
 }
 
+nav ul time {
+	margin-left: 1em;
+}
+
 nav h3 {
 	text-align: center;
 }
