@@ -5,6 +5,7 @@ title: Opinionated
 <nav><ul>
 {% assign curr_year = '' %}
 {% for post in site.posts %}
+{% unless post.draft %}
 	{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
 	{% if post_year != curr_year %}
 		<li>
@@ -16,5 +17,6 @@ title: Opinionated
 		<a class="nine columns" href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
 		<time datetime="{{ post.date }}">{{ post.date | date: '%d %b' }}</time>
 	</li>
+{% endunless %}
 {% endfor %}
 </ul></nav>
