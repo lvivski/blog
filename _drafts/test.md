@@ -2,7 +2,6 @@
 layout: post
 title: Test
 subtitle: Just a simple subtitle
-draft: true
 ---
 http://urlinking.com
 
