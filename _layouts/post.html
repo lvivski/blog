@@ -6,7 +6,18 @@ layout: default
 		<a href="{{ site.path }}">←</a>
 		<h1>{{ page.title }}</h1>
 		<time datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y" }}</time>
+		{% assign words = content | number_of_words %}
+		{% if words >= 360 %}<time class="reading-time">~{{ words | divided_by:180 }} mins read</time>{% endif %}
 		{% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
 	</header>
 	{{ content }}
 </article>
+<nav>
+{% if page.previous %}
+	<a href="{{page.previous.url}}">← {{page.previous.title}}</a> 
+{% endif %}
+{% if page.prev && page.next %} · {% endif %}
+{% if page.next %}
+	<a href="{{page.next.url}}">{{page.next.title}} →</a> 
+{% endif %}
+</nav>
